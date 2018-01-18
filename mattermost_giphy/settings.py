@@ -18,3 +18,9 @@ GIPHY_API_KEY = os.environ.get('GIPHY_API_KEY', 'dc6zaTOxFJmzC')
 
 # the Mattemost token generated when you created your outgoing webhook
 MATTERMOST_GIPHY_TOKEN = os.environ.get('MATTERMOST_GIPHY_TOKEN', None)
+
+# the Mattemost token generated when you created your incomming webhook
+MATTERMOST_GIPHY_IN_TOKEN = os.environ.get('MATTERMOST_GIPHY_IN_TOKEN', None)
+
+# the number of suggested gif
+GIPHY_SEARCH_LIMIT = os.environ.get('GIPHY_SEARCH_LIMIT', 5)
